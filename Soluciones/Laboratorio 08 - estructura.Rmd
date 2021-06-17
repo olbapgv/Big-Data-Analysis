@@ -1,0 +1,55 @@
+---
+title: "\\vspace{-1cm}  Análisis de Big Data"
+subtitle: "— Laboratorio 8 —  \n Pablo González"
+geometry: "right = 3cm, left = 3cm, top = 2cm, bottom = 2cm"
+output:
+  pdf_document: default
+header-includes: 
+  - \usepackage{setspace}\doublespacing
+  - \usepackage{placeins}
+---
+$\vspace{-1.5cm}$
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.pos = 'H')
+```
+
+
+```{r, warning = FALSE, message=FALSE}
+#Step 0: We import the necessary libraries.
+if (!require('knitr')) install.packages('knitr'); library('knitr')
+if (!require('kableExtra')) install.packages('kableExtra')
+if (!require('class')) install.packages('class'); library('class')
+if (!require('e1071')) install.packages('e1071'); library('e1071')
+if (!require('nnet')) install.packages('nnet'); library('nnet')
+if (!require('randomForest')) install.packages('randomForest')
+if (!require('tidyverse')) install.packages('tidyverse'); library('tidyverse')
+library('kableExtra'); library('randomForest')
+```
+
+
+## Introducción
+
+
+## Metodología propuesta
+
+
+## Análisis y resultados
+
+
+## Conclusión
+
+
+## Referencias
+
+
+\newpage  
+
+## Apéndice
+
+Código empleado
+
+```{r ref.label=knitr::all_labels(), eval=FALSE, echo=TRUE}
+
+```
+
